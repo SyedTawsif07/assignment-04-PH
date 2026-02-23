@@ -16,10 +16,10 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body>
-    <header class="w-[80%] mx-auto space-y-4">
-        <h1 class="text-4xl font-bold">Job Application Tracker</h1>
-        <div class="grid grid-cols-3 gap-4">
+<body class="mx-10">
+    <header class="w-full lg:w-[80%] mx-auto space-y-4 mt-[100px]">
+        <h1 class="text-4xl font-bold mb-10">Job Application Tracker</h1>
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
             <div class="p-4 border rounded-[10px]">
                 <p>Total</p>
                 <p id="total" class="text-2xl font-bold">0</p>
@@ -35,10 +35,10 @@
         </div>
     </header>
 
-    <hr class="w-[80%] mx-auto my-7">
+    <hr class="w-full lg:w-[80%] mx-auto my-7">
 
-    <main class="w-[80%] mx-auto space-y-5">
-        <div class="space-x-4">
+    <main class="w-full lg:w-[80%] mx-auto space-y-5">
+        <div class="flex justify-center lg:justify-start space-x-4">
             <button onclick="toggleStyle('all-filter-btn')" class="btn btn-info text-white"
                 id="all-filter-btn">All</button>
             <button onclick="toggleStyle('interview-filter-btn')" class="btn"
